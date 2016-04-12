@@ -73,7 +73,7 @@ class LazyArray implements \ArrayAccess
             $item = $this->lazyArray[$offset];
             if (is_array($item)) {
                 $className = $item[0];
-                $params = $item[1] ?? [];
+                $params = isset($item[1]) ? $item[1] : [];
             } else {
                 $className = $item;
                 $params = [];
