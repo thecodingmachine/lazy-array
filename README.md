@@ -54,5 +54,5 @@ $lazyArray = new LazyArray([
 Why?
 ====
 
-Is the examples suggest, this was build for improving the performance of service providers.
+As the examples suggest, this was built for improving the performance of service providers loading (in compiled container environment).
 Do not use this as a replacement for a dependency injection container, this is a bad idea.
